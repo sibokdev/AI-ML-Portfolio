@@ -1,6 +1,40 @@
 import pkg from 'whatsapp-web.js';
 import qrcode from 'qrcode-terminal';
+import fs from 'fs';
 import 'dotenv/config';
+
+const NEGOCIOS_FILE = 'negocios.json';
+let negocios = JSON.parse(fs.readFileSync(NEGOCIOS_FILE, 'utf-8'));
+
+let docs = negocios.map(neg => {
+  const direccion = `${neg.direccion?.calle || ''}, ${neg.direccion?.colonia || ''}, ${neg.direccion?.ciudad || ''}, ${neg.direccion?.estado || ''}`;
+  return {
+    pageContent: `Nombre: ${neg.nombre}
+    Categoría principal: ${neg.categoriaPrincipal}
+    Categorías: ${neg.categorias?.join(', ')}
+    Servicios: ${neg.servicios?.join(', ')}
+    Palabras clave: ${neg.palabrasClave?.join(', ')}
+    Zona: ${neg.zona}
+    Dirección: ${direccion}
+    Costo: ${neg.costo}
+    Teléfono: ${neg.telefono}`,
+        metadata: {
+          nombre: neg.nombre,
+          categoriaPrincipal: (neg.categoriaPrincipal || '').toLowerCase(),
+          categorias: (neg.categorias || []).map(c => c.toLowerCase()),
+          servicios: (neg.servicios || []).map(s => s.toLowerCase()),
+          palabrasClave: (neg.palabrasClave || []).map(p => p.toLowerCase()),
+          zona: (neg.zona || '').toLowerCase(),
+          direccion,
+          costo: (neg.costo || '').toLowerCase(),
+          telefono: neg.telefono || '',
+          prioridad: neg.prioridad || 0,
+          latitud: neg.coordenadas?.latitud,
+          longitud: neg.coordenadas?.longitud,
+          activo: true
+        }
+      };
+});
 
 const { Client } = pkg;
 const client = new Client();
