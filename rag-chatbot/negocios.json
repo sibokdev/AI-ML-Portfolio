@@ -1,0 +1,702 @@
+[
+  {
+    "nombre": "Farmacia San Martín",
+    "categoriaPrincipal": "Farmacia",
+    "categorias": [
+      "Farmacia",
+      "Medicamentos",
+      "Recetas"
+    ],
+    "servicios": [
+      "Venta de medicinas",
+      "Surtir recetas"
+    ],
+    "palabrasClave": [
+      "farmacia económica",
+      "comprar medicina",
+      "medicinas"
+    ],
+    "zona": "San Martín Texmelucan",
+    "direccion": {
+      "calle": "Calle Reforma 100",
+      "colonia": null,
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5551234567",
+    "prioridad": 10,
+    "coordenadas": {
+      "latitud": 19.284074,
+      "longitud": -98.437244
+    }
+  },
+  {
+    "nombre": "Plomero Don Mario",
+    "categoriaPrincipal": "Plomería",
+    "categorias": [
+      "Plomería",
+      "Reparaciones"
+    ],
+    "servicios": [
+      "Reparación de fugas",
+      "Instalación de tuberías",
+      "Destape de caños"
+    ],
+    "palabrasClave": [
+      "plomero",
+      "arreglar baño",
+      "tubería"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Morelos 12",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5557654321",
+    "prioridad": 10,
+    "coordenadas": {
+      "latitud": 19.283895,
+      "longitud": -98.437754
+    }
+  },
+  {
+    "nombre": "Farmacia San José",
+    "categoriaPrincipal": "Farmacia",
+    "categorias": [
+      "Farmacia",
+      "Medicamentos",
+      "Recetas"
+    ],
+    "servicios": [
+      "Venta de medicinas",
+      "Surtir recetas"
+    ],
+    "palabrasClave": [
+      "farmacia barata",
+      "comprar medicina",
+      "medicinas"
+    ],
+    "zona": "Norte",
+    "direccion": {
+      "calle": "Av. Hidalgo 22",
+      "colonia": "Norte",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5551234567",
+    "prioridad": 9,
+    "coordenadas": {
+      "latitud": 19.283684,
+      "longitud": -98.438371
+    }
+  },
+  {
+    "nombre": "Restaurante La Parrilla",
+    "categoriaPrincipal": "Restaurante",
+    "categorias": [
+      "Restaurante",
+      "Carnes",
+      "Comida"
+    ],
+    "servicios": [
+      "Comida para llevar",
+      "Cortes de carne",
+      "Almuerzos",
+      "Cenas"
+    ],
+    "palabrasClave": [
+      "parrilla",
+      "cortes de carne",
+      "comida"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Juárez 105",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5552345678",
+    "prioridad": 8,
+    "coordenadas": {
+      "latitud": 19.285144,
+      "longitud": -98.436618
+    }
+  },
+  {
+    "nombre": "Doctor Ramírez",
+    "categoriaPrincipal": "Salud",
+    "categorias": [
+      "Consultas médicas",
+      "Doctor"
+    ],
+    "servicios": [
+      "Chequeos generales",
+      "Atención médica"
+    ],
+    "palabrasClave": [
+      "consulta",
+      "salud",
+      "enfermo"
+    ],
+    "zona": "Sur",
+    "direccion": {
+      "calle": "Calle Reforma 78",
+      "colonia": "Sur",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5553456789",
+    "prioridad": 7,
+    "coordenadas": {
+      "latitud": 19.285036,
+      "longitud": -98.436178
+    }
+  },
+  {
+    "nombre": "Tintorería Express",
+    "categoriaPrincipal": "Tintorería",
+    "categorias": [
+      "Tintorería",
+      "Lavandería"
+    ],
+    "servicios": [
+      "Lavado y planchado de ropa"
+    ],
+    "palabrasClave": [
+      "lavado de ropa",
+      "planchar ropa",
+      "limpieza de ropa"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Av. Zaragoza 45",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5554567890",
+    "prioridad": 6,
+    "coordenadas": {
+      "latitud": 19.282498,
+      "longitud": -98.435744
+    }
+  },
+  {
+    "nombre": "Librería El Saber",
+    "categoriaPrincipal": "Librería",
+    "categorias": [
+      "Librería",
+      "Libros",
+      "Escolares"
+    ],
+    "servicios": [
+      "Venta de libros",
+      "Útiles escolares"
+    ],
+    "palabrasClave": [
+      "libros",
+      "comprar libros",
+      "lectura"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Independencia 13",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5555678901",
+    "prioridad": 5,
+    "coordenadas": {
+      "latitud": 19.284408,
+      "longitud": -98.437078
+    }
+  },
+  {
+    "nombre": "Hotel Buen Descanso",
+    "categoriaPrincipal": "Hotel",
+    "categorias": [
+      "Hotel",
+      "Hospedaje"
+    ],
+    "servicios": [
+      "Alojamiento",
+      "Reservas",
+      "Estancias por noche"
+    ],
+    "palabrasClave": [
+      "hotel",
+      "descansar",
+      "alojamiento"
+    ],
+    "zona": "Huejotzingo",
+    "direccion": {
+      "calle": "Carretera Federal 22",
+      "colonia": "Huejotzingo",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5556789012",
+    "prioridad": 4,
+    "coordenadas": {
+      "latitud": 19.283246,
+      "longitud": -98.436417
+    }
+  },
+  {
+    "nombre": "Pizzería Napoli",
+    "categoriaPrincipal": "Pizzería",
+    "categorias": [
+      "Pizzería",
+      "Comida",
+      "Pizza"
+    ],
+    "servicios": [
+      "Venta de pizza",
+      "Comida para llevar"
+    ],
+    "palabrasClave": [
+      "comer pizza",
+      "cenar",
+      "pedir pizza"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle 5 de Mayo 40",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5557890123",
+    "prioridad": 3,
+    "coordenadas": {
+      "latitud": 19.28519,
+      "longitud": -98.435875
+    }
+  },
+  {
+    "nombre": "Electricista Rápido",
+    "categoriaPrincipal": "Electricista",
+    "categorias": [
+      "Electricidad",
+      "Reparaciones"
+    ],
+    "servicios": [
+      "Reparar instalación eléctrica",
+      "Instalar focos"
+    ],
+    "palabrasClave": [
+      "electricista",
+      "reparar luz",
+      "apagadores"
+    ],
+    "zona": "Sur",
+    "direccion": {
+      "calle": "Calle 2 Norte 88",
+      "colonia": "Sur",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Barato",
+    "telefono": "5558901234",
+    "prioridad": 2,
+    "coordenadas": {
+      "latitud": 19.284665,
+      "longitud": -98.436797
+    }
+  },
+  {
+    "nombre": "Veterinaria Patitas",
+    "categoriaPrincipal": "Veterinaria",
+    "categorias": [
+      "Veterinaria",
+      "Mascotas"
+    ],
+    "servicios": [
+      "Consulta veterinaria",
+      "Cuidado de animales"
+    ],
+    "palabrasClave": [
+      "perro",
+      "gato",
+      "consulta animal"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Allende 56",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5559012345",
+    "prioridad": 1,
+    "coordenadas": {
+      "latitud": 19.285278,
+      "longitud": -98.435792
+    }
+  },
+  {
+    "nombre": "Tacos El Güero",
+    "categoriaPrincipal": "Taquería",
+    "categorias": [
+      "Taquería",
+      "Tacos",
+      "Comida"
+    ],
+    "servicios": [
+      "Venta de tacos",
+      "Comida rápida"
+    ],
+    "palabrasClave": [
+      "tacos al pastor",
+      "antojitos",
+      "cenar"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Av. Libertad 21",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Barato",
+    "telefono": "5551122334",
+    "prioridad": 9,
+    "coordenadas": {
+      "latitud": 19.283142,
+      "longitud": -98.436959
+    }
+  },
+  {
+    "nombre": "Café Aroma",
+    "categoriaPrincipal": "Cafetería",
+    "categorias": [
+      "Cafetería",
+      "Desayunos"
+    ],
+    "servicios": [
+      "Venta de café",
+      "Desayunos",
+      "Meriendas"
+    ],
+    "palabrasClave": [
+      "café",
+      "desayunar",
+      "tomar café"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Reforma 10",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5559988776",
+    "prioridad": 8,
+    "coordenadas": {
+      "latitud": 19.283844,
+      "longitud": -98.438269
+    }
+  },
+  {
+    "nombre": "Refaccionaria La Rápida",
+    "categoriaPrincipal": "Refaccionaria",
+    "categorias": [
+      "Autopartes",
+      "Refacciones"
+    ],
+    "servicios": [
+      "Venta de refacciones para auto"
+    ],
+    "palabrasClave": [
+      "reparar auto",
+      "piezas de coche",
+      "refaccionaria"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Av. Benito Juárez 76",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5556655443",
+    "prioridad": 7,
+    "coordenadas": {
+      "latitud": 19.282649,
+      "longitud": -98.437667
+    }
+  },
+  {
+    "nombre": "Papelería Lupita",
+    "categoriaPrincipal": "Papelería",
+    "categorias": [
+      "Papelería",
+      "Escolares",
+      "Oficina"
+    ],
+    "servicios": [
+      "Venta de útiles escolares y papelería"
+    ],
+    "palabrasClave": [
+      "libretas",
+      "plumas",
+      "papel"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle 3 Oriente 9",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5554433221",
+    "prioridad": 6,
+    "coordenadas": {
+      "latitud": 19.282857,
+      "longitud": -98.437295
+    }
+  },
+  {
+    "nombre": "Salón de Belleza Estilo",
+    "categoriaPrincipal": "Estética",
+    "categorias": [
+      "Belleza",
+      "Salón",
+      "Estética"
+    ],
+    "servicios": [
+      "Corte de cabello",
+      "Peinados",
+      "Maquillaje"
+    ],
+    "palabrasClave": [
+      "uñas",
+      "estética",
+      "belleza"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Matamoros 33",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5555544332",
+    "prioridad": 5,
+    "coordenadas": {
+      "latitud": 19.284211,
+      "longitud": -98.438387
+    }
+  },
+  {
+    "nombre": "Reparación Celular Rápida",
+    "categoriaPrincipal": "Tecnología",
+    "categorias": [
+      "Celulares",
+      "Reparaciones"
+    ],
+    "servicios": [
+      "Reparación de celulares",
+      "Cambio de batería",
+      "Pantallas"
+    ],
+    "palabrasClave": [
+      "celular",
+      "pantalla rota",
+      "batería"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle 16 de Septiembre 44",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Barato",
+    "telefono": "5553322110",
+    "prioridad": 4,
+    "coordenadas": {
+      "latitud": 19.284132,
+      "longitud": -98.435755
+    }
+  },
+  {
+    "nombre": "Barbería El Rayo",
+    "categoriaPrincipal": "Barbería",
+    "categorias": [
+      "Barbería",
+      "Estilo Masculino"
+    ],
+    "servicios": [
+      "Corte de cabello",
+      "Afeitado"
+    ],
+    "palabrasClave": [
+      "barba",
+      "peluquero",
+      "barbería"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Iturbide 67",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5551237890",
+    "prioridad": 3,
+    "coordenadas": {
+      "latitud": 19.283561,
+      "longitud": -98.436322
+    }
+  },
+  {
+    "nombre": "Panadería La Delicia",
+    "categoriaPrincipal": "Panadería",
+    "categorias": [
+      "Panadería",
+      "Postres",
+      "Comida"
+    ],
+    "servicios": [
+      "Venta de pan y pasteles"
+    ],
+    "palabrasClave": [
+      "pan",
+      "bollería",
+      "antojos"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Hidalgo 33",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Barato",
+    "telefono": "5559876543",
+    "prioridad": 2,
+    "coordenadas": {
+      "latitud": 19.28471,
+      "longitud": -98.436861
+    }
+  },
+  {
+    "nombre": "Ferretería Central",
+    "categoriaPrincipal": "Ferretería",
+    "categorias": [
+      "Ferretería",
+      "Construcción"
+    ],
+    "servicios": [
+      "Venta de herramientas y materiales"
+    ],
+    "palabrasClave": [
+      "tornillos",
+      "materiales",
+      "clavos"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Mina 8",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Medio",
+    "telefono": "5553219876",
+    "prioridad": 1,
+    "coordenadas": {
+      "latitud": 19.282557,
+      "longitud": -98.43829
+    }
+  },
+  {
+    "nombre": "Tienda de Ropa Fashion",
+    "categoriaPrincipal": "Ropa",
+    "categorias": [
+      "Ropa",
+      "Accesorios",
+      "Moda"
+    ],
+    "servicios": [
+      "Venta de ropa y accesorios"
+    ],
+    "palabrasClave": [
+      "vestidos",
+      "blusas",
+      "ropa económica"
+    ],
+    "zona": "Centro",
+    "direccion": {
+      "calle": "Calle Morelos 14",
+      "colonia": "Centro",
+      "ciudad": "San Martín Texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "Económico",
+    "telefono": "5551472583",
+    "prioridad": 10,
+    "coordenadas": {
+      "latitud": 19.285352,
+      "longitud": -98.438162
+    }
+  },
+  {
+    "nombre": "la burbuja",
+    "categoriaPrincipal": "lavanderia",
+    "categorias": [
+      "lavanderia"
+    ],
+    "servicios": [
+      "lavar ropa",
+      "lavar tenis",
+      "lavar colchas",
+      "lavar endredones"
+    ],
+    "palabrasClave": [
+      "lavanderia",
+      "lavado",
+      "lavar",
+      "rop",
+      "colchas",
+      "sabanas",
+      "cobijas",
+      "tenis"
+    ],
+    "zona": "centro",
+    "direccion": {
+      "calle": "rio lerma 3",
+      "colonia": "centro",
+      "ciudad": "san martin texmelucan",
+      "estado": "Puebla"
+    },
+    "costo": "economico",
+    "telefono": "2481561567",
+    "prioridad": 0,
+    "coordenadas": {
+      "latitud": 19.280345916748047,
+      "longitud": -98.41658020019531
+    },
+    "activo": false
+  }
+]
