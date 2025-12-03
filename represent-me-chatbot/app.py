@@ -129,9 +129,22 @@ agent = VirtualMeAgent(
     txt_path="me/summary.txt"
 )
 
+
+evaluator = ResponseEvaluator(virtual_me_agent=agent)
+
+
 def chat(message, history):
     reply = agent.chat(message, history)
-    return reply
+    eval_result = evaluator.evaluate(reply, message, history)
 
+    if eval_result.is_acceptable:
+        print("Passed evaluation")
+        return reply
+
+    print("Failed evaluation — retrying")
+    print("Feedback:", eval_result.feedback)
+
+    corrected = evaluator.rerun(reply, message, history, eval_result.feedback)
+    return corrected
 
 gr.ChatInterface(chat, type="messages").launch()
