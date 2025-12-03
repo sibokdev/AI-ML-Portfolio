@@ -1,0 +1,4 @@
+My name is Alfredo. I'm a software engineer and ai/ml engineer. I enjoy creating systems from conception to production.
+I like to put my skill to test on different technologies and intregrate them, love to create pipelines with containerized apps that can bring your ideas to life in a cloud env.
+In my free time I like to play video games and programm video games in unity.
+I hold a Master in Vidego Games and a Mater on Big Data.
