@@ -135,101 +135,101 @@ async function mostrarMenu(msg) {
 
 client.on('message', async msg => {
   try {
-    if (!msg || typeof msg.body === 'undefined') return;
-    const from = msg.from;
-    if (!from || from === 'status@broadcast' || from.includes('newsletter')) return;
+      if (!msg || typeof msg.body === 'undefined') return;
+      const from = msg.from;
+      if (!from || from === 'status@broadcast' || from.includes('newsletter')) return;
 
-    const texto = msg.body.trim().toLowerCase();
-    const saludos = ['hola', 'buenas', 'hey', 'menu', 'opciones', 'iniciar'];
-    console.log(from);
-	 // Line below update the whatsapp number to the number that is simulating a query to the chatbot, if you dont do that
-    // the chatbot will start seend messages to all of his contacts
-    if (from === '5212213903233@c.us'){    
-          console.log(texto);
-    // reinicio con saludo
-    if (saludos.some(p => texto.includes(p))) {
-      await mostrarMenu(msg);
-      return;
-    }
-
-    const paso = estadoConversacion[from] || 0;
-
-    // paso 1 = menú principal
-    if (paso === 1) {
-      switch (texto) {
-        case "1":
-          await msg.reply("📌 En San Martín puedes visitar el tianguis, templos, y zonas culturales.");
-          await mostrarMenu(msg); // vuelve a mostrar el menú
-          estadoConversacion[from] = 1;
-          break;
-        case "2":
-          await msg.reply("🏞️ Cerca puedes visitar Huejotzingo, Cholula y Puebla capital.");
-          await mostrarMenu(msg); // vuelve a mostrar el menú
-          estadoConversacion[from] = 1;
-          break;
-        case "3":
-          await msg.reply("📖 San Martín Texmelucan tiene una rica historia ligada al comercio y al ferrocarril.");
-          await mostrarMenu(msg); // vuelve a mostrar el menú
-          estadoConversacion[from] = 1;
-          break;
-        case "4":
-          await msg.reply("🍽️ Recomendamos el mercado municipal y restaurantes locales.");
-          await mostrarMenu(msg); // vuelve a mostrar el menú
-          estadoConversacion[from] = 1;
-          break;
-        case "5":
-          await msg.reply("🏛️ Puedes consultar dependencias en el palacio municipal en el centro.");
-          await mostrarMenu(msg); // vuelve a mostrar el menú
-          estadoConversacion[from] = 1;
-          break;
-        case "6":
-          await msg.reply("🔍 Claro, dime qué tipo de negocio buscas.");
-          estadoConversacion[from] = 2; // ahora espera la pregunta de RAG
-          break;
-        case "7":
-          await msg.reply("📝 Perfecto, vamos a registrar tu negocio. ¿Cuál es el *nombre* de tu negocio?");
-          estadoConversacion[from] = "registro_nombre";
-          registroTemp[from] = {};
-          break;
-        default:
-          await msg.reply("❌ Opción no válida. Escribe un número del 1 al 7.");
+      const texto = msg.body.trim().toLowerCase();
+      const saludos = ['hola', 'buenas', 'hey', 'menu', 'opciones', 'iniciar'];
+      console.log(from);
+    // Line below update the whatsapp number to the number that is simulating a query to the chatbot, if you dont do that
+      // the chatbot will start seend messages to all of his contacts
+      if (from === '5212213903233@c.us'){    
+            console.log(texto);
+      // reinicio con saludo
+      if (saludos.some(p => texto.includes(p))) {
+        await mostrarMenu(msg);
+        return;
       }
-      return;
-    }
 
-    // Paso 2: preguntar a RAG
-    if (paso === 2) {
-      const respuesta = await chain.call({
-        query: texto
-      });
-      await msg.reply(respuesta.text || "No encontré información precisa.");
-      estadoConversacion[from] = 0;
-      return;
-    }
+      const paso = estadoConversacion[from] || 0;
 
-    // Subflujo de registro
-    if (paso === "registro_nombre") {
-      registroTemp[from].nombre = msg.body.trim();
-      await msg.reply("📍 Ahora dime la *dirección* de tu negocio:");
-      estadoConversacion[from] = "registro_direccion";
-      return;
+      // paso 1 = menú principal
+      if (paso === 1) {
+        switch (texto) {
+          case "1":
+            await msg.reply("📌 En San Martín puedes visitar el tianguis, templos, y zonas culturales.");
+            await mostrarMenu(msg); // vuelve a mostrar el menú
+            estadoConversacion[from] = 1;
+            break;
+          case "2":
+            await msg.reply("🏞️ Cerca puedes visitar Huejotzingo, Cholula y Puebla capital.");
+            await mostrarMenu(msg); // vuelve a mostrar el menú
+            estadoConversacion[from] = 1;
+            break;
+          case "3":
+            await msg.reply("📖 San Martín Texmelucan tiene una rica historia ligada al comercio y al ferrocarril.");
+            await mostrarMenu(msg); // vuelve a mostrar el menú
+            estadoConversacion[from] = 1;
+            break;
+          case "4":
+            await msg.reply("🍽️ Recomendamos el mercado municipal y restaurantes locales.");
+            await mostrarMenu(msg); // vuelve a mostrar el menú
+            estadoConversacion[from] = 1;
+            break;
+          case "5":
+            await msg.reply("🏛️ Puedes consultar dependencias en el palacio municipal en el centro.");
+            await mostrarMenu(msg); // vuelve a mostrar el menú
+            estadoConversacion[from] = 1;
+            break;
+          case "6":
+            await msg.reply("🔍 Claro, dime qué tipo de negocio buscas.");
+            estadoConversacion[from] = 2; // ahora espera la pregunta de RAG
+            break;
+          case "7":
+            await msg.reply("📝 Perfecto, vamos a registrar tu negocio. ¿Cuál es el *nombre* de tu negocio?");
+            estadoConversacion[from] = "registro_nombre";
+            registroTemp[from] = {};
+            break;
+          default:
+            await msg.reply("❌ Opción no válida. Escribe un número del 1 al 7.");
+        }
+        return;
+      }
+
+      // Paso 2: preguntar a RAG
+      if (paso === 2) {
+        const respuesta = await chain.call({
+          query: texto
+        });
+        await msg.reply(respuesta.text || "No encontré información precisa.");
+        estadoConversacion[from] = 0;
+        return;
+      }
+
+      // Subflujo de registro
+      if (paso === "registro_nombre") {
+        registroTemp[from].nombre = msg.body.trim();
+        await msg.reply("📍 Ahora dime la *dirección* de tu negocio:");
+        estadoConversacion[from] = "registro_direccion";
+        return;
+      }
+      if (paso === "registro_direccion") {
+        registroTemp[from].direccion = msg.body.trim();
+        await msg.reply("📞 Finalmente, comparte un *teléfono de contacto*:");
+        estadoConversacion[from] = "registro_telefono";
+        return;
+      }
+      if (paso === "registro_telefono") {
+        registroTemp[from].telefono = msg.body.trim();
+        await msg.reply("✅ ¡Tu negocio fue registrado con éxito! Será revisado antes de publicarse.");
+        estadoConversacion[from] = 0;
+        // aquí podrías guardar registroTemp[from] en tu JSON
+        console.log("Nuevo negocio registrado:", registroTemp[from]);
+        delete registroTemp[from];
+        return;
+      }
     }
-    if (paso === "registro_direccion") {
-      registroTemp[from].direccion = msg.body.trim();
-      await msg.reply("📞 Finalmente, comparte un *teléfono de contacto*:");
-      estadoConversacion[from] = "registro_telefono";
-      return;
-    }
-    if (paso === "registro_telefono") {
-      registroTemp[from].telefono = msg.body.trim();
-      await msg.reply("✅ ¡Tu negocio fue registrado con éxito! Será revisado antes de publicarse.");
-      estadoConversacion[from] = 0;
-      // aquí podrías guardar registroTemp[from] en tu JSON
-      console.log("Nuevo negocio registrado:", registroTemp[from]);
-      delete registroTemp[from];
-      return;
-    }
-  }
   } catch (error) {
     console.error('Error procesando mensaje:', error);
     try {
