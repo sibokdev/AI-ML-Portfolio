@@ -2,6 +2,8 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from PyPDF2 import PdfReader
 import gradio as gr
+from pydantic import BaseModel
+import os
 
 load_dotenv(override=True)
 
@@ -52,6 +54,73 @@ class VirtualMeAgent:
             model="gpt-4o-mini",
             messages=messages
         )
+        return response.choices[0].message.content
+
+class Evaluation(BaseModel):
+    is_acceptable: bool
+    feedback: str
+
+
+class ResponseEvaluator:
+    def __init__(self, virtual_me_agent: VirtualMeAgent):
+        self.virtual_me_agent = virtual_me_agent
+
+        self.client = OpenAI(
+            api_key=os.getenv("GOOGLE_API_KEY"),
+            base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+        )
+
+        # Prepare evaluation system prompt
+        self.evaluator_system_prompt = self._build_evaluator_prompt()
+
+    def _build_evaluator_prompt(self):
+        return (
+            f"You are an evaluator ensuring the agent correctly represents {self.virtual_me_agent.name}. "
+            f"Evaluate whether the agent's latest answer is correct, professional, and aligned. "
+            f"Provide JSON with is_acceptable and feedback.\n\n"
+            f"## Summary:\n{self.virtual_me_agent.summary}\n\n"
+            f"## LinkedIn:\n{self.virtual_me_agent.linkedin}\n\n"
+        )
+
+    def _build_user_prompt(self, reply, user_msg, history):
+        return (
+            f"Conversation:\n{history}\n\n"
+            f"User message:\n{user_msg}\n\n"
+            f"Agent response:\n{reply}\n\n"
+            f"Evaluate the response."
+        )
+
+    def evaluate(self, reply, user_msg, history):
+        messages = [
+            {"role": "system", "content": self.evaluator_system_prompt},
+            {"role": "user", "content": self._build_user_prompt(reply, user_msg, history)}
+        ]
+
+        response = self.client.beta.chat.completions.parse(
+            model="gemini-2.0-flash",
+            messages=messages,
+            response_format=Evaluation
+        )
+
+        return response.choices[0].message.parsed
+
+    def rerun(self, reply, user_msg, history, feedback):
+        updated_system = (
+            self.virtual_me_agent.system_prompt
+            + "\n\n## Previous answer was rejected\n"
+            f"Attempted answer:\n{reply}\n\n"
+            f"Reason:\n{feedback}\n"
+        )
+
+        messages = [{"role": "system", "content": updated_system}] + history
+        messages.append({"role": "user", "content": user_msg})
+
+        openai = self.virtual_me_agent.openai
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=messages
+        )
+
         return response.choices[0].message.content
 
 agent = VirtualMeAgent(
