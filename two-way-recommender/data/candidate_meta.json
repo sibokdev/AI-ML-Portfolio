@@ -1,0 +1,1270 @@
+{
+  "7216bae0b5a84857bd9de8c3b4637b29": {
+    "id": 189703970826299673,
+    "name": "Bob Lopez",
+    "email": "user0@example.com",
+    "skills": [
+      "rest",
+      "ml",
+      "docker",
+      "gcp",
+      "dl",
+      "transformers"
+    ],
+    "vector_id": "7216bae0b5a84857bd9de8c3b4637b29"
+  },
+  "584e475e6b214abe919a08816fb5c5e8": {
+    "id": 116486434001911872,
+    "name": "Frank Martinez",
+    "email": "user1@example.com",
+    "skills": [
+      "api",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "584e475e6b214abe919a08816fb5c5e8"
+  },
+  "39224379ea9545699f1d775db82a745c": {
+    "id": 257873649289605212,
+    "name": "Eva Brown",
+    "email": "user2@example.com",
+    "skills": [
+      "dl",
+      "postgres",
+      "node"
+    ],
+    "vector_id": "39224379ea9545699f1d775db82a745c"
+  },
+  "0447ffa163a842689a496814500f3a76": {
+    "id": 196675672150169079,
+    "name": "Grace Johnson",
+    "email": "user3@example.com",
+    "skills": [
+      "dl",
+      "aws",
+      "gcp"
+    ],
+    "vector_id": "0447ffa163a842689a496814500f3a76"
+  },
+  "80fb4fb8fcc44faf9d83c7e854243305": {
+    "id": 984645886339785512,
+    "name": "David Miller",
+    "email": "user4@example.com",
+    "skills": [
+      "nlp",
+      "dl",
+      "kubernetes",
+      "django"
+    ],
+    "vector_id": "80fb4fb8fcc44faf9d83c7e854243305"
+  },
+  "dbaa8c22a0924d6487377189ea4493c8": {
+    "id": 163808812356206998,
+    "name": "Julia Brown",
+    "email": "user5@example.com",
+    "skills": [
+      "python",
+      "typescript",
+      "spacy",
+      "dl",
+      "devops",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "dbaa8c22a0924d6487377189ea4493c8"
+  },
+  "d8af86fc6e1b40ab91295652711cdc2e": {
+    "id": 839373561249844607,
+    "name": "Eva Garcia",
+    "email": "user6@example.com",
+    "skills": [
+      "git",
+      "aws",
+      "pandas",
+      "nlp",
+      "kubernetes"
+    ],
+    "vector_id": "d8af86fc6e1b40ab91295652711cdc2e"
+  },
+  "a7f1591bfb4f4edfaef010f507832e4f": {
+    "id": 350112609270018646,
+    "name": "Frank Johnson",
+    "email": "user7@example.com",
+    "skills": [
+      "graphql",
+      "react"
+    ],
+    "vector_id": "a7f1591bfb4f4edfaef010f507832e4f"
+  },
+  "8d65accbb4e14c9abb4a72d206e039eb": {
+    "id": 121063944758948925,
+    "name": "David Williams",
+    "email": "user8@example.com",
+    "skills": [
+      "rest",
+      "sql",
+      "react",
+      "azure",
+      "node",
+      "django"
+    ],
+    "vector_id": "8d65accbb4e14c9abb4a72d206e039eb"
+  },
+  "ba163822216d40edb3265cb58d94af78": {
+    "id": 314269884389935768,
+    "name": "Eva Johnson",
+    "email": "user9@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "spacy",
+      "tensorflow",
+      "docker"
+    ],
+    "vector_id": "ba163822216d40edb3265cb58d94af78"
+  },
+  "5e21a78efc154284b416dfd5440fc344": {
+    "id": 230315288277842923,
+    "name": "Charlie Williams",
+    "email": "user10@example.com",
+    "skills": [
+      "scikit-learn",
+      "ml",
+      "gcp",
+      "docker",
+      "dl"
+    ],
+    "vector_id": "5e21a78efc154284b416dfd5440fc344"
+  },
+  "d7a3787e097844c886b513fbd3be1809": {
+    "id": 179690072670098655,
+    "name": "David Davis",
+    "email": "user11@example.com",
+    "skills": [
+      "python",
+      "devops"
+    ],
+    "vector_id": "d7a3787e097844c886b513fbd3be1809"
+  },
+  "dd5f5bd591fd453ebf48dd699eda83a4": {
+    "id": 938875683087943354,
+    "name": "Hannah Garcia",
+    "email": "user12@example.com",
+    "skills": [
+      "git",
+      "api",
+      "flask",
+      "numpy",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "dd5f5bd591fd453ebf48dd699eda83a4"
+  },
+  "4a11461b81ae485482c1374a06e19a3f": {
+    "id": 884049819092724436,
+    "name": "Bob Jones",
+    "email": "user13@example.com",
+    "skills": [
+      "flask",
+      "django",
+      "nosql"
+    ],
+    "vector_id": "4a11461b81ae485482c1374a06e19a3f"
+  },
+  "9a9eef7939474b388b813334565c6896": {
+    "id": 102615424099704514,
+    "name": "Alice Jones",
+    "email": "user14@example.com",
+    "skills": [
+      "rest",
+      "spacy",
+      "docker",
+      "django",
+      "transformers"
+    ],
+    "vector_id": "9a9eef7939474b388b813334565c6896"
+  },
+  "9c2cf0982a144a128ec430b331967381": {
+    "id": 305997180672310530,
+    "name": "Ian Lopez",
+    "email": "user15@example.com",
+    "skills": [
+      "api",
+      "tensorflow",
+      "flask",
+      "numpy",
+      "microservices",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "9c2cf0982a144a128ec430b331967381"
+  },
+  "8ed34187d12e4110bf9116ae0056a76a": {
+    "id": 160737349549529937,
+    "name": "Charlie Brown",
+    "email": "user16@example.com",
+    "skills": [
+      "mongodb",
+      "docker"
+    ],
+    "vector_id": "8ed34187d12e4110bf9116ae0056a76a"
+  },
+  "cf23e7de8d0e4221ad9954f65d68059b": {
+    "id": 560207989932677521,
+    "name": "Grace Johnson",
+    "email": "user17@example.com",
+    "skills": [
+      "git",
+      "aws",
+      "nosql",
+      "pandas",
+      "fastapi"
+    ],
+    "vector_id": "cf23e7de8d0e4221ad9954f65d68059b"
+  },
+  "64dee0dbd96749719545d8ae1d1b98c9": {
+    "id": 199112456578770218,
+    "name": "Ian Lopez",
+    "email": "user18@example.com",
+    "skills": [
+      "python",
+      "mongodb",
+      "docker",
+      "microservices",
+      "pytorch"
+    ],
+    "vector_id": "64dee0dbd96749719545d8ae1d1b98c9"
+  },
+  "2702a1bb0af14cbfa426073315cac711": {
+    "id": 287136124262368529,
+    "name": "David Miller",
+    "email": "user19@example.com",
+    "skills": [
+      "aws",
+      "devops",
+      "scikit-learn"
+    ],
+    "vector_id": "2702a1bb0af14cbfa426073315cac711"
+  },
+  "ba670e97150948c0b54edd79adbe87c1": {
+    "id": 143720887904629254,
+    "name": "David Davis",
+    "email": "user20@example.com",
+    "skills": [
+      "aws",
+      "nosql",
+      "flask",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "ba670e97150948c0b54edd79adbe87c1"
+  },
+  "6c130aaf26b0421fa4070a50ab8e514b": {
+    "id": 132611034244640834,
+    "name": "Grace Garcia",
+    "email": "user21@example.com",
+    "skills": [
+      "scikit-learn",
+      "ml",
+      "linux",
+      "pandas",
+      "data engineering",
+      "mysql"
+    ],
+    "vector_id": "6c130aaf26b0421fa4070a50ab8e514b"
+  },
+  "69b9db40f57d49a28d920f22cd67d2e4": {
+    "id": 309253721647676195,
+    "name": "Alice Davis",
+    "email": "user22@example.com",
+    "skills": [
+      "javascript",
+      "spacy",
+      "docker",
+      "pandas",
+      "transformers"
+    ],
+    "vector_id": "69b9db40f57d49a28d920f22cd67d2e4"
+  },
+  "79d7ef9ea4284c4e89a2761254d36a3b": {
+    "id": 191803330788585401,
+    "name": "Bob Johnson",
+    "email": "user23@example.com",
+    "skills": [
+      "javascript",
+      "linux",
+      "react",
+      "dl",
+      "fastapi",
+      "typescript"
+    ],
+    "vector_id": "79d7ef9ea4284c4e89a2761254d36a3b"
+  },
+  "0c6143c09978498994d9ae26f83b00b3": {
+    "id": 311214839956167709,
+    "name": "David Davis",
+    "email": "user24@example.com",
+    "skills": [
+      "mongodb",
+      "pytorch",
+      "microservices"
+    ],
+    "vector_id": "0c6143c09978498994d9ae26f83b00b3"
+  },
+  "4e120794a8254cffb989bae8e69604de": {
+    "id": 153315219468655421,
+    "name": "Eva Davis",
+    "email": "user25@example.com",
+    "skills": [
+      "dl",
+      "graphql",
+      "fastapi"
+    ],
+    "vector_id": "4e120794a8254cffb989bae8e69604de"
+  },
+  "4ec5ef261bc74206babc1a23ba17c4a9": {
+    "id": 134239831629799442,
+    "name": "David Smith",
+    "email": "user26@example.com",
+    "skills": [
+      "dl",
+      "microservices",
+      "javascript",
+      "gcp"
+    ],
+    "vector_id": "4ec5ef261bc74206babc1a23ba17c4a9"
+  },
+  "029313980d9542838820c380fd929cf4": {
+    "id": 140091314034409307,
+    "name": "David Jones",
+    "email": "user27@example.com",
+    "skills": [
+      "data scientist",
+      "typescript",
+      "fastapi"
+    ],
+    "vector_id": "029313980d9542838820c380fd929cf4"
+  },
+  "33cda38245fb4eb084d27ecb04ad956f": {
+    "id": 220376903607543429,
+    "name": "Grace Williams",
+    "email": "user28@example.com",
+    "skills": [
+      "javascript",
+      "aws",
+      "gcp",
+      "dl",
+      "microservices"
+    ],
+    "vector_id": "33cda38245fb4eb084d27ecb04ad956f"
+  },
+  "251448bca8f14148b2ae571af47fbb86": {
+    "id": 179122536930713917,
+    "name": "Grace Williams",
+    "email": "user29@example.com",
+    "skills": [
+      "python",
+      "mongodb",
+      "nosql",
+      "django",
+      "pytorch",
+      "graphql"
+    ],
+    "vector_id": "251448bca8f14148b2ae571af47fbb86"
+  },
+  "1cf1e3696c6c4924b46f77e0703323e1": {
+    "id": 317433774409350646,
+    "name": "Charlie Miller",
+    "email": "user30@example.com",
+    "skills": [
+      "git",
+      "spacy",
+      "aws",
+      "kubernetes",
+      "fastapi",
+      "postgres"
+    ],
+    "vector_id": "1cf1e3696c6c4924b46f77e0703323e1"
+  },
+  "52dc5276abc4411e8c0cb90f5dc49068": {
+    "id": 105067340761339913,
+    "name": "Ian Garcia",
+    "email": "user31@example.com",
+    "skills": [
+      "javascript",
+      "spacy",
+      "aws",
+      "gcp",
+      "kubernetes",
+      "typescript"
+    ],
+    "vector_id": "52dc5276abc4411e8c0cb90f5dc49068"
+  },
+  "74ff3cf76bbc459ab7235480ae412ef1": {
+    "id": 342635017656344761,
+    "name": "David Jones",
+    "email": "user32@example.com",
+    "skills": [
+      "ml",
+      "linux",
+      "dl",
+      "typescript",
+      "postgres"
+    ],
+    "vector_id": "74ff3cf76bbc459ab7235480ae412ef1"
+  },
+  "97a8c7de20794a988f13d14f33aa7743": {
+    "id": 607206313970691814,
+    "name": "Julia Davis",
+    "email": "user33@example.com",
+    "skills": [
+      "api",
+      "numpy",
+      "node"
+    ],
+    "vector_id": "97a8c7de20794a988f13d14f33aa7743"
+  },
+  "28b9a75a1aaa478b8604c6277739d16d": {
+    "id": 121134706132056217,
+    "name": "Hannah Williams",
+    "email": "user34@example.com",
+    "skills": [
+      "microservices",
+      "rest",
+      "django",
+      "gcp"
+    ],
+    "vector_id": "28b9a75a1aaa478b8604c6277739d16d"
+  },
+  "beb3355d5b094195aaacebbceca94545": {
+    "id": 320075602106881340,
+    "name": "Frank Lopez",
+    "email": "user35@example.com",
+    "skills": [
+      "flask",
+      "django"
+    ],
+    "vector_id": "beb3355d5b094195aaacebbceca94545"
+  },
+  "d0e4b11b1e8d46b68760f6b17da68b60": {
+    "id": 529597008171996786,
+    "name": "Grace Smith",
+    "email": "user36@example.com",
+    "skills": [
+      "spacy",
+      "docker",
+      "devops",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "d0e4b11b1e8d46b68760f6b17da68b60"
+  },
+  "5c00baf28dd3423cb4a366dc204b8311": {
+    "id": 183897725240177385,
+    "name": "Charlie Jones",
+    "email": "user37@example.com",
+    "skills": [
+      "pandas",
+      "scikit-learn",
+      "data engineering"
+    ],
+    "vector_id": "5c00baf28dd3423cb4a366dc204b8311"
+  },
+  "a2293a0833dd427391e0e647297f454d": {
+    "id": 809276585090585689,
+    "name": "Alice Jones",
+    "email": "user38@example.com",
+    "skills": [
+      "pandas",
+      "aws",
+      "fastapi",
+      "git"
+    ],
+    "vector_id": "a2293a0833dd427391e0e647297f454d"
+  },
+  "95f873b79e784e7990c191a170a73952": {
+    "id": 268301967402598977,
+    "name": "Julia Williams",
+    "email": "user39@example.com",
+    "skills": [
+      "api",
+      "django",
+      "mysql",
+      "javascript"
+    ],
+    "vector_id": "95f873b79e784e7990c191a170a73952"
+  },
+  "40e15ecd9ba6496e9e5fd9300595f47d": {
+    "id": 125301036230945121,
+    "name": "Grace Jones",
+    "email": "user40@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "spacy",
+      "tensorflow",
+      "docker",
+      "react",
+      "devops"
+    ],
+    "vector_id": "40e15ecd9ba6496e9e5fd9300595f47d"
+  },
+  "4f52afb67567444492c604eddfbcc1ae": {
+    "id": 915431516229643131,
+    "name": "Grace Miller",
+    "email": "user41@example.com",
+    "skills": [
+      "nlp",
+      "django",
+      "fastapi"
+    ],
+    "vector_id": "4f52afb67567444492c604eddfbcc1ae"
+  },
+  "24f93d264c304ce7b8f0a2d0ee28fac2": {
+    "id": 156039896182763628,
+    "name": "David Davis",
+    "email": "user42@example.com",
+    "skills": [
+      "api",
+      "gcp",
+      "flask",
+      "numpy",
+      "graphql"
+    ],
+    "vector_id": "24f93d264c304ce7b8f0a2d0ee28fac2"
+  },
+  "d5983272659841699f617e59abe1b490": {
+    "id": 181392245500069039,
+    "name": "Eva Williams",
+    "email": "user43@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "tensorflow",
+      "docker"
+    ],
+    "vector_id": "d5983272659841699f617e59abe1b490"
+  },
+  "334da6126a714fdd8c343685cb4f7555": {
+    "id": 127935809142248443,
+    "name": "Charlie Williams",
+    "email": "user44@example.com",
+    "skills": [
+      "spacy",
+      "typescript",
+      "transformers"
+    ],
+    "vector_id": "334da6126a714fdd8c343685cb4f7555"
+  },
+  "6d1fba25057b45a688a654492375ec92": {
+    "id": 377717193632295519,
+    "name": "Charlie Martinez",
+    "email": "user45@example.com",
+    "skills": [
+      "spacy",
+      "api",
+      "docker",
+      "nosql",
+      "pandas",
+      "fastapi",
+      "django"
+    ],
+    "vector_id": "6d1fba25057b45a688a654492375ec92"
+  },
+  "5b0aab0e9ad640948914f24d68213ade": {
+    "id": 200744456029145548,
+    "name": "Frank Williams",
+    "email": "user46@example.com",
+    "skills": [
+      "pytorch",
+      "typescript"
+    ],
+    "vector_id": "5b0aab0e9ad640948914f24d68213ade"
+  },
+  "d6f4cf30075940a99c0374d6f967297e": {
+    "id": 284660978792248208,
+    "name": "Julia Smith",
+    "email": "user47@example.com",
+    "skills": [
+      "python",
+      "scikit-learn",
+      "spacy",
+      "docker",
+      "microservices"
+    ],
+    "vector_id": "d6f4cf30075940a99c0374d6f967297e"
+  },
+  "4fa40d425ca64e469fcac839b59b5d91": {
+    "id": 180014856921706795,
+    "name": "Julia Davis",
+    "email": "user48@example.com",
+    "skills": [
+      "python",
+      "javascript",
+      "linux",
+      "nosql",
+      "dl",
+      "fastapi",
+      "typescript"
+    ],
+    "vector_id": "4fa40d425ca64e469fcac839b59b5d91"
+  },
+  "b0618478b1f24fd698bb4fa819abdd5b": {
+    "id": 293713230123714184,
+    "name": "Eva Smith",
+    "email": "user49@example.com",
+    "skills": [
+      "rest",
+      "devops",
+      "graphql",
+      "gcp"
+    ],
+    "vector_id": "b0618478b1f24fd698bb4fa819abdd5b"
+  },
+  "d91c5030a1444ee89c815109f3e2903a": {
+    "id": 190265274869234127,
+    "name": "David Garcia",
+    "email": "user50@example.com",
+    "skills": [
+      "linux",
+      "spacy",
+      "pytorch",
+      "react"
+    ],
+    "vector_id": "d91c5030a1444ee89c815109f3e2903a"
+  },
+  "53f70da22e4b4ba9b7c8f47a0d329b83": {
+    "id": 297078602932534115,
+    "name": "David Lopez",
+    "email": "user51@example.com",
+    "skills": [
+      "javascript",
+      "aws",
+      "nosql",
+      "gcp",
+      "microservices",
+      "django"
+    ],
+    "vector_id": "53f70da22e4b4ba9b7c8f47a0d329b83"
+  },
+  "4237252d09c043d5b121ef4af52f7c8a": {
+    "id": 285288780791237490,
+    "name": "Charlie Johnson",
+    "email": "user52@example.com",
+    "skills": [
+      "python",
+      "scikit-learn",
+      "aws",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "4237252d09c043d5b121ef4af52f7c8a"
+  },
+  "358d81d416c04d138ad0ec5948a784bc": {
+    "id": 339513381616953286,
+    "name": "Alice Brown",
+    "email": "user53@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "linux",
+      "tensorflow",
+      "docker"
+    ],
+    "vector_id": "358d81d416c04d138ad0ec5948a784bc"
+  },
+  "80ee1e77483445a9a8e01ef053bf4307": {
+    "id": 188522913899077078,
+    "name": "Alice Brown",
+    "email": "user54@example.com",
+    "skills": [
+      "rest",
+      "linux",
+      "nlp",
+      "dl",
+      "typescript",
+      "postgres"
+    ],
+    "vector_id": "80ee1e77483445a9a8e01ef053bf4307"
+  },
+  "538ad4164fa54dc48b5d47add3974ba8": {
+    "id": 886897558556526930,
+    "name": "Charlie Williams",
+    "email": "user55@example.com",
+    "skills": [
+      "sql",
+      "graphql",
+      "nosql"
+    ],
+    "vector_id": "538ad4164fa54dc48b5d47add3974ba8"
+  },
+  "6884c0d76be74dc188bbde7c20afe122": {
+    "id": 586262904337587424,
+    "name": "Ian Martinez",
+    "email": "user56@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "spacy",
+      "api",
+      "tensorflow",
+      "docker"
+    ],
+    "vector_id": "6884c0d76be74dc188bbde7c20afe122"
+  },
+  "95d390de14c44af9a73e162357eb03b1": {
+    "id": 200122298232594569,
+    "name": "Charlie Martinez",
+    "email": "user57@example.com",
+    "skills": [
+      "data scientist",
+      "scikit-learn",
+      "tensorflow"
+    ],
+    "vector_id": "95d390de14c44af9a73e162357eb03b1"
+  },
+  "89b6145b67c24e00ac3a138863a1d9fe": {
+    "id": 151764953728682232,
+    "name": "Hannah Miller",
+    "email": "user58@example.com",
+    "skills": [
+      "spacy",
+      "docker"
+    ],
+    "vector_id": "89b6145b67c24e00ac3a138863a1d9fe"
+  },
+  "c77e35f9a8844a2cb3aa5d85fb10fdc6": {
+    "id": 186134208935974817,
+    "name": "Eva Martinez",
+    "email": "user59@example.com",
+    "skills": [
+      "data scientist",
+      "python",
+      "git",
+      "aws",
+      "sql"
+    ],
+    "vector_id": "c77e35f9a8844a2cb3aa5d85fb10fdc6"
+  },
+  "358925d575ca461bb4ef27dd89d63d73": {
+    "id": 105675140711115968,
+    "name": "Hannah Miller",
+    "email": "user60@example.com",
+    "skills": [
+      "dl",
+      "aws",
+      "spacy",
+      "gcp"
+    ],
+    "vector_id": "358925d575ca461bb4ef27dd89d63d73"
+  },
+  "1f6da3dbad5b476b9caa2f5588ffc8b9": {
+    "id": 295763905266149634,
+    "name": "Alice Davis",
+    "email": "user61@example.com",
+    "skills": [
+      "python",
+      "tensorflow",
+      "azure",
+      "microservices",
+      "node",
+      "pytorch",
+      "postgres"
+    ],
+    "vector_id": "1f6da3dbad5b476b9caa2f5588ffc8b9"
+  },
+  "81467eea8f104fc980822304504e4b74": {
+    "id": 293845792515091272,
+    "name": "Hannah Brown",
+    "email": "user62@example.com",
+    "skills": [
+      "pandas",
+      "scikit-learn",
+      "data engineering",
+      "mysql"
+    ],
+    "vector_id": "81467eea8f104fc980822304504e4b74"
+  },
+  "e019ddb5609e4c108645ea26358d2525": {
+    "id": 623920787255948728,
+    "name": "Julia Brown",
+    "email": "user63@example.com",
+    "skills": [
+      "javascript",
+      "linux",
+      "dl",
+      "node",
+      "typescript"
+    ],
+    "vector_id": "e019ddb5609e4c108645ea26358d2525"
+  },
+  "18864ca513424001a51ca476fa9123d6": {
+    "id": 182644887218966412,
+    "name": "Hannah Williams",
+    "email": "user64@example.com",
+    "skills": [
+      "python",
+      "microservices",
+      "kubernetes",
+      "azure",
+      "data engineering"
+    ],
+    "vector_id": "18864ca513424001a51ca476fa9123d6"
+  },
+  "2a878a6a079647398de721d85e051c08": {
+    "id": 830427233185143372,
+    "name": "David Brown",
+    "email": "user65@example.com",
+    "skills": [
+      "javascript",
+      "aws",
+      "react",
+      "gcp",
+      "dl",
+      "microservices",
+      "mysql"
+    ],
+    "vector_id": "2a878a6a079647398de721d85e051c08"
+  },
+  "1a9c8a00d65146da9c4af52cf51e3edb": {
+    "id": 114505266785977899,
+    "name": "David Smith",
+    "email": "user66@example.com",
+    "skills": [
+      "microservices",
+      "pytorch",
+      "python",
+      "azure"
+    ],
+    "vector_id": "1a9c8a00d65146da9c4af52cf51e3edb"
+  },
+  "3db7ea8f3b2f43258958dfafb522345e": {
+    "id": 245105323851986331,
+    "name": "Charlie Smith",
+    "email": "user67@example.com",
+    "skills": [
+      "spacy",
+      "django",
+      "javascript",
+      "docker"
+    ],
+    "vector_id": "3db7ea8f3b2f43258958dfafb522345e"
+  },
+  "ea4fcbb87ac34dacac1835bc9f87f2bd": {
+    "id": 239717722016952623,
+    "name": "David Miller",
+    "email": "user68@example.com",
+    "skills": [
+      "ml",
+      "spacy",
+      "dl",
+      "node",
+      "azure",
+      "data engineering",
+      "postgres"
+    ],
+    "vector_id": "ea4fcbb87ac34dacac1835bc9f87f2bd"
+  },
+  "74a6b73d8b184ebaacb008e501889eae": {
+    "id": 721751537709534907,
+    "name": "David Miller",
+    "email": "user69@example.com",
+    "skills": [
+      "javascript",
+      "spacy",
+      "azure",
+      "dl",
+      "node",
+      "django",
+      "postgres"
+    ],
+    "vector_id": "74a6b73d8b184ebaacb008e501889eae"
+  },
+  "a9190a13ab934b84aba42238d87bca2e": {
+    "id": 189260007868581703,
+    "name": "Hannah Garcia",
+    "email": "user70@example.com",
+    "skills": [
+      "javascript",
+      "git",
+      "linux",
+      "dl",
+      "fastapi",
+      "typescript"
+    ],
+    "vector_id": "a9190a13ab934b84aba42238d87bca2e"
+  },
+  "1d7b1cf2ffe34e019a52442a7b55be1f": {
+    "id": 148335177838793244,
+    "name": "Charlie Williams",
+    "email": "user71@example.com",
+    "skills": [
+      "aws",
+      "kubernetes",
+      "git"
+    ],
+    "vector_id": "1d7b1cf2ffe34e019a52442a7b55be1f"
+  },
+  "fc3e37456421405ba19591da25a5f440": {
+    "id": 653957650922765978,
+    "name": "Grace Smith",
+    "email": "user72@example.com",
+    "skills": [
+      "pytorch",
+      "microservices",
+      "gcp",
+      "azure"
+    ],
+    "vector_id": "fc3e37456421405ba19591da25a5f440"
+  },
+  "f94db37003a7465b906f095c8ab5764e": {
+    "id": 200439383760788353,
+    "name": "Grace Smith",
+    "email": "user73@example.com",
+    "skills": [
+      "pytorch",
+      "django",
+      "javascript",
+      "azure"
+    ],
+    "vector_id": "f94db37003a7465b906f095c8ab5764e"
+  },
+  "8686601fc51b446cb568ab5148eac7d9": {
+    "id": 875191091869991506,
+    "name": "Ian Lopez",
+    "email": "user74@example.com",
+    "skills": [
+      "flask",
+      "api",
+      "devops",
+      "numpy"
+    ],
+    "vector_id": "8686601fc51b446cb568ab5148eac7d9"
+  },
+  "d3f07db6e4f64c3eaf3ad94a79086c5b": {
+    "id": 325475807949571673,
+    "name": "Bob Smith",
+    "email": "user75@example.com",
+    "skills": [
+      "dl",
+      "spacy",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "d3f07db6e4f64c3eaf3ad94a79086c5b"
+  },
+  "e091a3aa326b43d0ac8fc936f5fabbc5": {
+    "id": 219840718340857711,
+    "name": "David Lopez",
+    "email": "user76@example.com",
+    "skills": [
+      "api",
+      "flask",
+      "numpy",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "e091a3aa326b43d0ac8fc936f5fabbc5"
+  },
+  "2309f3696d3b4aec9aa28f1169796b31": {
+    "id": 334922326738857300,
+    "name": "Grace Smith",
+    "email": "user77@example.com",
+    "skills": [
+      "rest",
+      "spacy",
+      "api",
+      "tensorflow",
+      "docker",
+      "fastapi",
+      "django"
+    ],
+    "vector_id": "2309f3696d3b4aec9aa28f1169796b31"
+  },
+  "951cd37c2a244c56a74c79d8b953c6ae": {
+    "id": 155282691677048920,
+    "name": "Frank Miller",
+    "email": "user78@example.com",
+    "skills": [
+      "mongodb",
+      "pytorch"
+    ],
+    "vector_id": "951cd37c2a244c56a74c79d8b953c6ae"
+  },
+  "91047070e489493995022f353280972c": {
+    "id": 202224323833023599,
+    "name": "Bob Lopez",
+    "email": "user79@example.com",
+    "skills": [
+      "rest",
+      "javascript",
+      "linux",
+      "fastapi",
+      "typescript",
+      "graphql"
+    ],
+    "vector_id": "91047070e489493995022f353280972c"
+  },
+  "c58a8ed623c94f54b1cd10f9096b2efc": {
+    "id": 270159033067908591,
+    "name": "Frank Smith",
+    "email": "user80@example.com",
+    "skills": [
+      "spacy",
+      "azure",
+      "pandas",
+      "dl",
+      "node",
+      "django",
+      "postgres"
+    ],
+    "vector_id": "c58a8ed623c94f54b1cd10f9096b2efc"
+  },
+  "4b4943bb9d2a4991b5cbefcf1ee31387": {
+    "id": 203364891642868785,
+    "name": "Frank Jones",
+    "email": "user81@example.com",
+    "skills": [
+      "javascript",
+      "spacy",
+      "docker",
+      "django",
+      "transformers"
+    ],
+    "vector_id": "4b4943bb9d2a4991b5cbefcf1ee31387"
+  },
+  "953d36c7e8a94113858223592fd06109": {
+    "id": 234205720621653093,
+    "name": "Frank Johnson",
+    "email": "user82@example.com",
+    "skills": [
+      "data engineering",
+      "numpy",
+      "django",
+      "nosql"
+    ],
+    "vector_id": "953d36c7e8a94113858223592fd06109"
+  },
+  "7e1054576a814cfdad54f2f5cb5d7ac6": {
+    "id": 339153878032999412,
+    "name": "Bob Davis",
+    "email": "user83@example.com",
+    "skills": [
+      "aws",
+      "nosql",
+      "flask",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "7e1054576a814cfdad54f2f5cb5d7ac6"
+  },
+  "4485af7d0dac41aaa859747f2454dc11": {
+    "id": 735512634760646121,
+    "name": "Eva Miller",
+    "email": "user84@example.com",
+    "skills": [
+      "python",
+      "scikit-learn",
+      "linux",
+      "aws",
+      "sql",
+      "pandas",
+      "devops"
+    ],
+    "vector_id": "4485af7d0dac41aaa859747f2454dc11"
+  },
+  "79582456e6154c0cbc0ed4950f9ac03e": {
+    "id": 234435030940391776,
+    "name": "Bob Johnson",
+    "email": "user85@example.com",
+    "skills": [
+      "python",
+      "git",
+      "mongodb",
+      "docker",
+      "gcp",
+      "microservices",
+      "pytorch"
+    ],
+    "vector_id": "79582456e6154c0cbc0ed4950f9ac03e"
+  },
+  "52d70a316b6a4d389bc517cc80e02dd8": {
+    "id": 287145603140982230,
+    "name": "Alice Johnson",
+    "email": "user86@example.com",
+    "skills": [
+      "pytorch",
+      "microservices",
+      "nosql",
+      "docker"
+    ],
+    "vector_id": "52d70a316b6a4d389bc517cc80e02dd8"
+  },
+  "7a635a07aceb4406b8b92af9336d61e6": {
+    "id": 248059601755366666,
+    "name": "Grace Lopez",
+    "email": "user87@example.com",
+    "skills": [
+      "data scientist",
+      "ml",
+      "flask",
+      "kubernetes",
+      "typescript"
+    ],
+    "vector_id": "7a635a07aceb4406b8b92af9336d61e6"
+  },
+  "440b89817f2f46f69e4b8f2bb016369d": {
+    "id": 698751108371800483,
+    "name": "Julia Garcia",
+    "email": "user88@example.com",
+    "skills": [
+      "api",
+      "flask",
+      "numpy",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "440b89817f2f46f69e4b8f2bb016369d"
+  },
+  "a24c8b076699401283c53f3bf31d8c5d": {
+    "id": 331127560731301989,
+    "name": "Grace Johnson",
+    "email": "user89@example.com",
+    "skills": [
+      "nlp",
+      "mongodb",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "a24c8b076699401283c53f3bf31d8c5d"
+  },
+  "bfb7e8a9a63542d69dea8311bc042091": {
+    "id": 150352250073015862,
+    "name": "Charlie Jones",
+    "email": "user90@example.com",
+    "skills": [
+      "api",
+      "devops"
+    ],
+    "vector_id": "bfb7e8a9a63542d69dea8311bc042091"
+  },
+  "833493de46c24d8981ee8c01edc27c58": {
+    "id": 124064007821108647,
+    "name": "Alice Martinez",
+    "email": "user91@example.com",
+    "skills": [
+      "python",
+      "scikit-learn",
+      "linux",
+      "aws",
+      "sql",
+      "devops",
+      "graphql"
+    ],
+    "vector_id": "833493de46c24d8981ee8c01edc27c58"
+  },
+  "08c1456dd92c469aa5d9435de11dd71b": {
+    "id": 306738209482757495,
+    "name": "David Jones",
+    "email": "user92@example.com",
+    "skills": [
+      "api",
+      "sql",
+      "docker",
+      "kubernetes",
+      "graphql"
+    ],
+    "vector_id": "08c1456dd92c469aa5d9435de11dd71b"
+  },
+  "5714819082cd4ff383f097fcc91e98f4": {
+    "id": 280882313902893576,
+    "name": "Frank Garcia",
+    "email": "user93@example.com",
+    "skills": [
+      "mongodb",
+      "react",
+      "nosql",
+      "kubernetes",
+      "graphql"
+    ],
+    "vector_id": "5714819082cd4ff383f097fcc91e98f4"
+  },
+  "4c7d5f5328f54844918922fa01a34857": {
+    "id": 225464412920030120,
+    "name": "Eva Brown",
+    "email": "user94@example.com",
+    "skills": [
+      "ml",
+      "dl",
+      "rest"
+    ],
+    "vector_id": "4c7d5f5328f54844918922fa01a34857"
+  },
+  "846c25c966b842ca885115ea45c9012c": {
+    "id": 255480486864901850,
+    "name": "Ian Brown",
+    "email": "user95@example.com",
+    "skills": [
+      "spacy",
+      "dl",
+      "devops",
+      "django",
+      "mysql"
+    ],
+    "vector_id": "846c25c966b842ca885115ea45c9012c"
+  },
+  "6e8803920c6240c88cb86c8a4b5706bf": {
+    "id": 101592747496605590,
+    "name": "Bob Smith",
+    "email": "user96@example.com",
+    "skills": [
+      "git",
+      "aws",
+      "pandas",
+      "kubernetes",
+      "fastapi",
+      "data engineering"
+    ],
+    "vector_id": "6e8803920c6240c88cb86c8a4b5706bf"
+  },
+  "5a65e4763409479485f7993cf012dd16": {
+    "id": 221096792626292406,
+    "name": "Hannah Davis",
+    "email": "user97@example.com",
+    "skills": [
+      "microservices",
+      "aws"
+    ],
+    "vector_id": "5a65e4763409479485f7993cf012dd16"
+  },
+  "3b0407c4e0994171bb502445ad5998e7": {
+    "id": 312707509021179009,
+    "name": "Eva Davis",
+    "email": "user98@example.com",
+    "skills": [
+      "mongodb",
+      "django",
+      "react"
+    ],
+    "vector_id": "3b0407c4e0994171bb502445ad5998e7"
+  },
+  "b291f73b008944cea67c43cbd4d2a8a6": {
+    "id": 168616420535923723,
+    "name": "David Martinez",
+    "email": "user99@example.com",
+    "skills": [
+      "python",
+      "javascript",
+      "aws",
+      "dl",
+      "devops"
+    ],
+    "vector_id": "b291f73b008944cea67c43cbd4d2a8a6"
+  },
+  "00bfc0b21aeb4de5a3926a353b9b01cf": {
+    "id": "e4c573c7c02b45f399ee24526cabcae9",
+    "name": null,
+    "email": null,
+    "skills": []
+  }
+}
