@@ -23,9 +23,9 @@ https://docs.astral.sh/uv/getting-started/installation/
 
 ## Backend Setup (Python + UV)
 
-### 1. Create a virtual environment (Python 3.11)
+### 1. Create a virtual environment (Python 3.8)
 ```bash
-uv venv --python 3.11
+uv venv --python 3.8
 
 ### 2. Activate env
 ```bash
