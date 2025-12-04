@@ -1,4 +1,4 @@
-# 2-Way Recommender System  
+# Two-Way Recommender System  
 A lightweight AI-powered recommendation engine that matches **profiles ↔ jobs** using embeddings, semantic search, and feedback loops.  
 Backend built with **Python + Flask + FAISS + UV**.  
 Frontend powered by **React**.
