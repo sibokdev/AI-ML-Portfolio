@@ -94,19 +94,5 @@ It serves as a **technical showcase** of practical AI engineering capabilities s
 ---
 
 ## 📌 Future Additions  
-More AI/ML projects will be added, including:
-
-- Advanced RAG implementations  
-- Autonomous multi-agent workflows  
-- Analytics dashboards  
-- Deployment-ready templates  
-
+More AI/ML projects will be added
 ---
-
-## 🧾 License  
-This repository is released under the **MIT License**.
-
----
-
-## 🙌 Contributions  
-Pull requests and improvements are welcome as this portfolio continues to grow.
