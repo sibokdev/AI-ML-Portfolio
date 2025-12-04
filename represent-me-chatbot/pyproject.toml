@@ -1,0 +1,12 @@
+[project]
+name = "represent-me-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8.3"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gradio>=4.44.1",
+    "openai>=2.2.0",
+    "pypdf2>=3.0.1",
+]
