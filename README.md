@@ -10,7 +10,13 @@ This repository gathers three core projects:
 2. **A bidirectional recommendation system for IT profiles and job vacancies using embeddings and NLP.**  
 3. **A virtual representative powered by agentic AI that answers questions about your professional background.**
 
-Each project demonstrates production-oriented AI engineering, including API integration, vector search, document ingestion, model orchestration, and user-facing interfaces.
+## Execution of python projects with Development Commands (UV Package Manager)
+I decided to usee UV packagee manager because is a lot faster than pip. Give it a try.
+### Install UV  
+Documentation:  
+https://docs.astral.sh/uv/getting-started/installation/
+
+Each project demonstrates AI engineering, including API integration, vector search, document ingestion, model orchestration, and user-facing interfaces.
 
 ---
 

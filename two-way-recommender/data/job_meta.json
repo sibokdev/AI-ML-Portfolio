@@ -1,0 +1,285 @@
+{
+  "230c0f0efee34612b4909b9936643afd": {
+    "id": 680507730852066202,
+    "title": "Backend Developer",
+    "description": "Backend Developer needed with experience in postgres, azure, spacy, node, dl.",
+    "skills": [
+      "postgres",
+      "azure",
+      "spacy",
+      "node",
+      "dl"
+    ],
+    "vector_id": "230c0f0efee34612b4909b9936643afd"
+  },
+  "17e0acdd8e9641c89cd7814886abc942": {
+    "id": 200520816499313365,
+    "title": "Frontend Developer",
+    "description": "Frontend Developer needed with experience in data scientist, docker, spacy, tensorflow, scikit-learn.",
+    "skills": [
+      "data scientist",
+      "docker",
+      "spacy",
+      "tensorflow",
+      "scikit-learn"
+    ],
+    "vector_id": "17e0acdd8e9641c89cd7814886abc942"
+  },
+  "a8bb02a1e22f4102b4ca33d9c62175c6": {
+    "id": 312379575579041421,
+    "title": "Fullstack Developer",
+    "description": "Fullstack Developer needed with experience in gcp, pytorch, typescript, kubernetes, spacy.",
+    "skills": [
+      "gcp",
+      "pytorch",
+      "typescript",
+      "kubernetes",
+      "spacy"
+    ],
+    "vector_id": "a8bb02a1e22f4102b4ca33d9c62175c6"
+  },
+  "256705d01f534f77b45064071a7b69b4": {
+    "id": 181980875796299261,
+    "title": "Data Scientist",
+    "description": "Data Scientist needed with experience in pandas, docker, javascript, spacy, transformers.",
+    "skills": [
+      "pandas",
+      "docker",
+      "javascript",
+      "spacy",
+      "transformers"
+    ],
+    "vector_id": "256705d01f534f77b45064071a7b69b4"
+  },
+  "11925593baee4d369b8f89321dd2b555": {
+    "id": 251766335226306717,
+    "title": "Machine Learning Engineer",
+    "description": "Machine Learning Engineer needed with experience in api, django, spacy, docker, fastapi.",
+    "skills": [
+      "api",
+      "django",
+      "spacy",
+      "docker",
+      "fastapi"
+    ],
+    "vector_id": "11925593baee4d369b8f89321dd2b555"
+  },
+  "4957fca44a834bd6a22ba5edcc3e6b10": {
+    "id": 306459194412332123,
+    "title": "DevOps Engineer",
+    "description": "DevOps Engineer needed with experience in fastapi, kubernetes, aws, git, pandas.",
+    "skills": [
+      "fastapi",
+      "kubernetes",
+      "aws",
+      "git",
+      "pandas"
+    ],
+    "vector_id": "4957fca44a834bd6a22ba5edcc3e6b10"
+  },
+  "60c8b56822d345a994cb6a93df21dd8f": {
+    "id": 207993418225252283,
+    "title": "Cloud Architect",
+    "description": "Cloud Architect needed with experience in docker, dl, rest, ml, gcp.",
+    "skills": [
+      "docker",
+      "dl",
+      "rest",
+      "ml",
+      "gcp"
+    ],
+    "vector_id": "60c8b56822d345a994cb6a93df21dd8f"
+  },
+  "ea140f86935a42a7b46b13c71fcd9a26": {
+    "id": 266578147598676028,
+    "title": "QA Engineer",
+    "description": "QA Engineer needed with experience in django, mongodb, react, nosql, graphql.",
+    "skills": [
+      "django",
+      "mongodb",
+      "react",
+      "nosql",
+      "graphql"
+    ],
+    "vector_id": "ea140f86935a42a7b46b13c71fcd9a26"
+  },
+  "30de00aa0d914431b9084087e05a06ca": {
+    "id": 101189943256779898,
+    "title": "Product Manager",
+    "description": "Product Manager needed with experience in kubernetes, dl, linux, nlp, typescript.",
+    "skills": [
+      "kubernetes",
+      "dl",
+      "linux",
+      "nlp",
+      "typescript"
+    ],
+    "vector_id": "30de00aa0d914431b9084087e05a06ca"
+  },
+  "cc554959fba74069b2addf50f8b8e1c2": {
+    "id": 301451652492642317,
+    "title": "IT Support Specialist",
+    "description": "IT Support Specialist needed with experience in microservices, dl, gcp, javascript, aws.",
+    "skills": [
+      "microservices",
+      "dl",
+      "gcp",
+      "javascript",
+      "aws"
+    ],
+    "vector_id": "cc554959fba74069b2addf50f8b8e1c2"
+  },
+  "b68d8e58c7ad403db7e9307d21a8eb49": {
+    "id": 215649817226945007,
+    "title": "Database Administrator",
+    "description": "Database Administrator needed with experience in pandas, scikit-learn, linux, data engineering, mysql.",
+    "skills": [
+      "pandas",
+      "scikit-learn",
+      "linux",
+      "data engineering",
+      "mysql"
+    ],
+    "vector_id": "b68d8e58c7ad403db7e9307d21a8eb49"
+  },
+  "5ae3bcae9e8841c68e9f24f3f3831fc3": {
+    "id": 300321448427350502,
+    "title": "Security Analyst",
+    "description": "Security Analyst needed with experience in python, mongodb, microservices, pytorch, docker.",
+    "skills": [
+      "python",
+      "mongodb",
+      "microservices",
+      "pytorch",
+      "docker"
+    ],
+    "vector_id": "5ae3bcae9e8841c68e9f24f3f3831fc3"
+  },
+  "74828431014d467eb4fdedc5f7c2b9ff": {
+    "id": 575191100251665587,
+    "title": "Software Engineer",
+    "description": "Software Engineer needed with experience in typescript, docker, kubernetes, data scientist, sql.",
+    "skills": [
+      "typescript",
+      "docker",
+      "kubernetes",
+      "data scientist",
+      "sql"
+    ],
+    "vector_id": "74828431014d467eb4fdedc5f7c2b9ff"
+  },
+  "53844495a4e3414fa6e3ba90083d6804": {
+    "id": 252508360096821480,
+    "title": "System Administrator",
+    "description": "System Administrator needed with experience in flask, aws, nosql, mysql, django.",
+    "skills": [
+      "flask",
+      "aws",
+      "nosql",
+      "mysql",
+      "django"
+    ],
+    "vector_id": "53844495a4e3414fa6e3ba90083d6804"
+  },
+  "fe4564a80f6b492db9538ea1a8806247": {
+    "id": 134047790615075684,
+    "title": "Mobile App Developer",
+    "description": "Mobile App Developer needed with experience in sql, scikit-learn, aws, python, devops.",
+    "skills": [
+      "sql",
+      "scikit-learn",
+      "aws",
+      "python",
+      "devops"
+    ],
+    "vector_id": "fe4564a80f6b492db9538ea1a8806247"
+  },
+  "7331355e54dc4abbbc05e832d8282515": {
+    "id": 834970144988772054,
+    "title": "AI Researcher",
+    "description": "AI Researcher needed with experience in rest, node, azure, react, sql.",
+    "skills": [
+      "rest",
+      "node",
+      "azure",
+      "react",
+      "sql"
+    ],
+    "vector_id": "7331355e54dc4abbbc05e832d8282515"
+  },
+  "661e9ab227984818a8f4f464933c9559": {
+    "id": 442981555936687816,
+    "title": "Business Analyst",
+    "description": "Business Analyst needed with experience in microservices, python, azure, pytorch, node.",
+    "skills": [
+      "microservices",
+      "python",
+      "azure",
+      "pytorch",
+      "node"
+    ],
+    "vector_id": "661e9ab227984818a8f4f464933c9559"
+  },
+  "d0675616d5fe42f7874460e1f11b63b9": {
+    "id": 315201570105436757,
+    "title": "Network Engineer",
+    "description": "Network Engineer needed with experience in django, devops, dl, spacy, mysql.",
+    "skills": [
+      "django",
+      "devops",
+      "dl",
+      "spacy",
+      "mysql"
+    ],
+    "vector_id": "d0675616d5fe42f7874460e1f11b63b9"
+  },
+  "02f77367378d4b528f28f1c7f97d5cd8": {
+    "id": 226721714273613684,
+    "title": "Site Reliability Engineer",
+    "description": "Site Reliability Engineer needed with experience in flask, graphql, numpy, api, devops.",
+    "skills": [
+      "flask",
+      "graphql",
+      "numpy",
+      "api",
+      "devops"
+    ],
+    "vector_id": "02f77367378d4b528f28f1c7f97d5cd8"
+  },
+  "5f6559c4aa334acf9bbccb8300eae5e5": {
+    "id": 230060391363564524,
+    "title": "Technical Lead",
+    "description": "Technical Lead needed with experience in javascript, dl, fastapi, linux, typescript.",
+    "skills": [
+      "javascript",
+      "dl",
+      "fastapi",
+      "linux",
+      "typescript"
+    ],
+    "vector_id": "5f6559c4aa334acf9bbccb8300eae5e5"
+  },
+  "2af95e97761e401f89a09581b3c5aef0": {
+    "id": "b614499333694f7bb3e0a5e431682292",
+    "title": "Python Developer",
+    "description": "Buscamos desarrollador Python con experiencia en NLP y Flask.",
+    "skills": [
+      "python",
+      "nlp",
+      "flask"
+    ]
+  },
+  "4e8817b7ee2e46a588919896b5d8fa3a": {
+    "id": "704ebe47063d4af285edef7bba95dba2",
+    "title": "staff Fullstack Engineer (Remote LATAM JOBS)",
+    "description": "🚀 We’re hiring – Staff Fullstack Engineer (Remote LATAM JOBS) \n💵 $90k–$120k USD\n🏭 Location: Latam- hashtag#Argentina hashtag#Bolivia hashtag#Brazil hashtag#Chile hashtag#Colombia hashtag#Ecuador hashtag#Guyana hashtag#Paraguay hashtag#Peru hashtag#Suriname hashtag#Uruguay hashtag#Venezuela\nA US-based startup is seeking a Staff Fullstack Engineer to join their mission-driven team in women’s healthcare.\n\n🔹 Requirements:\n- 6+ years of experience as a Fullstack Engineer\n- Strong with React, TypeScript, Node.js (NestJS) or Python (FastAPI), SQL\n- Proven experience in cloud (AWS/GCP), DevOps, CI/CD, monitoring\n- Familiar with HIPAA/SOC2, authentication/authorization (Auth0, Firebase)\n✨ Nice to have: AI/ML, LLM, Firebase",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js (NestJS)",
+      "Python (FastAPI)",
+      "SQL"
+    ],
+    "recruiter_id": "recruiter-1"
+  }
+}

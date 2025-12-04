@@ -11,15 +11,28 @@ You now have a working system where:
 
 ---
 
-## Development Commands (UV Package Manager)
-I decided to usee UV packagee manager because is a lot faster than pip. Give it a try.
-### Install UV  
-Documentation:  
+## Development Setup
+
+This project uses **UV** — a modern, extremely fast alternative to pip + venv.  
+Highly recommended for Python development.
+
+UV Documentation:  
 https://docs.astral.sh/uv/getting-started/installation/
 
-### Create environment + install dependencies
+---
+
+## Backend Setup (Python + UV)
+
+### 1. Create a virtual environment (Python 3.11)
 ```bash
-uv venv
-uv pip install dotenv
-uv pip install openai
-uv pip install gradio
+uv venv --python 3.11
+
+### 2. Activate env
+```bash
+.venv\Scripts\activate
+
+### 3. Install dependecies 
+uv sync
+
+### Run project
+uv run app.py
