@@ -29,3 +29,9 @@ If you need to create a deployment you should follow next steps:
 ```bash
 uv run gradio deploy
 ```
+
+#Check next questions to fire the call of tools:
+![](mdimages/s1.png "")
+
+#This is th result of tooling calls in the pushover app:
+![](mdimages/s2.png "")
