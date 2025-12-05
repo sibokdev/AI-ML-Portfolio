@@ -122,7 +122,7 @@ class VirtualMeAgent:
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
-                results = self.handle_tool_call(tool_calls)
+                results = self.handle_tool_calls(tool_calls)
                 messages.append(message)
                 messages.extend(results)
             else:
