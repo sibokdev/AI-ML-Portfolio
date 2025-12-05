@@ -98,7 +98,7 @@ class VirtualMeAgent:
             f"Stay fully in character during the conversation."
         )
         return sp
-    def handle_tool_calls(tool_calls):
+    def handle_tool_calls(self,tool_calls):
         results = []
         for tool_call in tool_calls:
             tool_name = tool_call.function.name
