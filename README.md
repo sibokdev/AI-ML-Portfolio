@@ -9,6 +9,7 @@ This repository gathers three core projects:
 1. **A WhatsApp-integrated LLM chatbot trained on a custom JSON knowledge base.**  
 2. **A bidirectional recommendation system for IT profiles and job vacancies using embeddings and NLP.**  
 3. **A virtual representative powered by agentic AI that answers questions about your professional background.**
+4. **A virtual Me deployed on Huggingface https://huggingface.co/spaces/sibok/chat .**
 
 ## Execution of python projects with Development Commands (UV Package Manager)
 I decided to usee UV packagee manager because is a lot faster than pip. Give it a try.
@@ -94,19 +95,5 @@ It serves as a **technical showcase** of practical AI engineering capabilities s
 ---
 
 ## 📌 Future Additions  
-More AI/ML projects will be added, including:
-
-- Advanced RAG implementations  
-- Autonomous multi-agent workflows  
-- Analytics dashboards  
-- Deployment-ready templates  
-
+More AI/ML projects will be added
 ---
-
-## 🧾 License  
-This repository is released under the **MIT License**.
-
----
-
-## 🙌 Contributions  
-Pull requests and improvements are welcome as this portfolio continues to grow.

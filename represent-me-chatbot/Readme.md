@@ -1,3 +1,9 @@
+---
+title: represent-me-chatbot
+app_file: chat-hf-deploy.py
+sdk: gradio
+sdk_version: 4.44.1
+---
 # Virtual Represent Me Agent
 
 This project implements a **multi-agent architecture** using both **OpenAI** (for the Persona Agent) and **Gemini** (for the Evaluation Agent).  
