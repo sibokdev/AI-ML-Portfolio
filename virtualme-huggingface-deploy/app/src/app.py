@@ -98,7 +98,16 @@ class VirtualMeAgent:
             f"Stay fully in character during the conversation."
         )
         return sp
-
+    def handle_tool_calls(tool_calls):
+        results = []
+        for tool_call in tool_calls:
+            tool_name = tool_call.function.name
+            arguments = json.loads(tool_call.function.arguments)
+            print(f"Tool called: {tool_name}", flush=True)
+            tool = globals().get(tool_name)
+            result = tool(**arguments) if tool else {}
+            results.append({"role": "tool","content": json.dumps(result),"tool_call_id": tool_call.id})
+        return results
     def build_messages(self, user_message, history):
         system = self.system_prompt
         messages = [{"role": "system", "content": system}] + history
